@@ -13,7 +13,7 @@ namespace JwtApp.Back.Persistance.Repositories
         public Repository(AppDbContext context)
         {
             _context = context;
-        } 
+        }
         #endregion
 
         public async Task CreateAsync(T entity)
